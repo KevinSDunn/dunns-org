@@ -45,6 +45,83 @@
           "type": "categories"
         }
       ]
+    },
+    {
+      "name": "triplog",
+      "previewPath": null,
+      "pageBundle": true,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Last modified date",
+          "name": "lastmod",
+          "type": "datetime",
+          "isModifiedDate": true
+        },
+        {
+          "title": "Start Location",
+          "name": "startlocation",
+          "type": "string"
+        },
+        {
+          "title": "Start Odometer",
+          "name": "startodometer",
+          "type": "number"
+        },
+        {
+          "title": "End Location",
+          "name": "endlocation",
+          "type": "string"
+        },
+        {
+          "title": "End Odometer",
+          "name": "endodometer",
+          "type": "number"
+        },
+        {
+          "title": "Waypoints",
+          "name": "waypoints",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "Waypoint Name",
+              "name": "waypointname",
+              "type": "string"
+            },
+            {
+              "title": "Waypoint Geocode",
+              "name": "waypointgeocode",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "title": "Navigation weight",
+          "name": "weight",
+          "type": "number"
+        },
+        {
+          "title": "type",
+          "name": "type",
+          "type": "string"
+        }
+      ]
     }
   ],
   "frontMatter.framework.id": "hugo",
@@ -55,8 +132,13 @@
       "path": "[[workspace]]/content"
     },
     {
-      "title": "clog",
+      "title": "blog",
       "path": "[[workspace]]/content/blog",
+      "filePrefix": "yyyy-mm-dd"
+    },
+    {
+      "title": "triplog",
+      "path": "[[workspace]]/content/triplog",
       "filePrefix": "yyyy-mm-dd"
     }
   ]

@@ -15,9 +15,18 @@ languages:
         url: /about/
         weight: 20
       - identifier: blog
-        name: Blog
+        name: News & Notes
         url: /blog/
         weight: 30
+      - identifier: triplog
+        name: Trip Logs
+        url: /triplog/
+        weight: 31
+      - identifier: themehelp
+        name: Theme Help
+        url: /themehelp/
+        weight: 32
+
       - identifier: categories
         name: Categories
         url: /categories/
@@ -136,5 +145,5 @@ permalinks:
 social:
   twitter: username
 theme: paige
-timezone: America/Los_Angeles
+timezone: America/Chicago
 titlecasestyle: Go
