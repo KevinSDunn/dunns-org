@@ -8,5 +8,10 @@ keywords: ""
 link: ""
 tags: ""
 categories: ""
+menu: 
+  main:
+    identifier: "Page"
+    weight: 210
+    parent: "blog"
 ---
 This content comes from a page bundle - does this theme handle page bundles?
