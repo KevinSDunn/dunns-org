@@ -1,0 +1,39 @@
+<article>
+        <div>
+        {{ $image := .Params.featuredimage }}
+        {{ with .Resources.GetMatch .Params.featuredimage }}
+            {{ with .Resize (printf "%dx%d webp" .Width .Height) }}
+              <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+            {{ end }}
+        {{ end }}    
+        </div>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-dark table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Location</th>
+                    <th scope="col">Odometer</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Starting</td>
+                    <td>{{ .Params.startlocation }}</td>
+                    <td>{{ .Params.startodometer }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">Ending</td>
+                    <td>{{ .Params.endlocation }}</td>
+                    <td>{{ .Params.endodometer }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <p>This is where the map will go.</p>
+    </div>
+</article>
+

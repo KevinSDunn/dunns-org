@@ -1,0 +1,22 @@
+{
+  "name": "dunns-org",
+  "version": "1.0.0",
+  "description": "Hugo based site for DunnYet personal blog.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinSDunn/dunns-org.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevinSDunn/dunns-org/issues"
+  },
+  "homepage": "https://github.com/KevinSDunn/dunns-org#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
