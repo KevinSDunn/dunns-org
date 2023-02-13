@@ -1,8 +1,7 @@
 ---
 title: Oliver Factory to T.O. Fuller
 description: Our first day with Hull 1030 Reset
-date: 2023-02-08T01:16:01.979Z
-lastmod: ""
+date: 2023-02-08
 startlocation: Oliver Travel Trailers, 228 Industrial Ave, Hohenwald, TN 38462
 startodometer: 100
 startlat: 35.5623515
@@ -12,7 +11,6 @@ endodometer: 200
 endlat: 35.0651741
 endlon: -90.11832428
 waypoints: { waypointname: "", waypointgeocode: "" }
-weight: ""
 type: triplog
 preview: ""
 draft: false

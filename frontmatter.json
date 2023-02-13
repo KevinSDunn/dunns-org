@@ -120,6 +120,61 @@
           "title": "type",
           "name": "type",
           "type": "string"
+        },
+        {
+          "title": "startlat",
+          "name": "startlat",
+          "type": "datetime"
+        },
+        {
+          "title": "startlon",
+          "name": "startlon",
+          "type": "datetime"
+        },
+        {
+          "title": "endlat",
+          "name": "endlat",
+          "type": "datetime"
+        },
+        {
+          "title": "endlon",
+          "name": "endlon",
+          "type": "datetime"
+        },
+        {
+          "title": "preview",
+          "name": "preview",
+          "type": "string"
+        },
+        {
+          "title": "draft",
+          "name": "draft",
+          "type": "datetime"
+        },
+        {
+          "title": "keywords",
+          "name": "keywords",
+          "type": "string"
+        },
+        {
+          "title": "link",
+          "name": "link",
+          "type": "string"
+        },
+        {
+          "title": "tags",
+          "name": "tags",
+          "type": "string"
+        },
+        {
+          "title": "categories",
+          "name": "categories",
+          "type": "string"
+        },
+        {
+          "title": "featuredimage",
+          "name": "featuredimage",
+          "type": "string"
         }
       ]
     }
@@ -141,5 +196,6 @@
       "path": "[[workspace]]/content/triplog",
       "filePrefix": "yyyy-mm-dd"
     }
-  ]
+  ],
+  "frontMatter.content.autoUpdateDate": true
 }
