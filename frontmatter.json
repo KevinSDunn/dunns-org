@@ -3,17 +3,17 @@
   "frontMatter.git.enabled": true,
   "frontMatter.taxonomy.contentTypes": [
     {
-      "name": "default",
+      "name": "blog",
       "pageBundle": true,
       "previewPath": null,
       "fields": [
         {
-          "title": "Title",
+          "title": "title",
           "name": "title",
           "type": "string"
         },
         {
-          "title": "Description",
+          "title": "description",
           "name": "description",
           "type": "string"
         },
@@ -25,24 +25,45 @@
           "isPublishDate": true
         },
         {
-          "title": "Content preview",
+          "title": "Last modified date",
+          "name": "lastmod",
+          "type": "datetime",
+          "isModifiedDate": true
+        },
+        {
+          "title": "preview",
           "name": "preview",
-          "type": "image"
+          "type": "string"
         },
         {
-          "title": "Is in draft",
+          "title": "draft",
           "name": "draft",
-          "type": "draft"
+          "type": "boolean"
         },
         {
-          "title": "Tags",
+          "title": "keywords",
+          "name": "keywords",
+          "type": "string"
+        },
+        {
+          "title": "link",
+          "name": "link",
+          "type": "string"
+        },
+        {
+          "title": "tags",
           "name": "tags",
-          "type": "tags"
+          "type": "string"
         },
         {
-          "title": "Categories",
+          "title": "categories",
           "name": "categories",
-          "type": "categories"
+          "type": "string"
+        },
+        {
+          "title": "featuredimage",
+          "name": "featuredimage",
+          "type": "string"
         }
       ]
     },
@@ -149,7 +170,7 @@
         {
           "title": "draft",
           "name": "draft",
-          "type": "datetime"
+          "type": "boolean"
         },
         {
           "title": "keywords",
@@ -189,12 +210,12 @@
     {
       "title": "blog",
       "path": "[[workspace]]/content/blog",
-      "filePrefix": "yyyy-mm-dd"
+      "filePrefix": "yyyy-MM-dd"
     },
     {
       "title": "triplog",
       "path": "[[workspace]]/content/triplog",
-      "filePrefix": "yyyy-mm-dd"
+      "filePrefix": "yyyy-MM-dd"
     }
   ],
   "frontMatter.content.autoUpdateDate": true
