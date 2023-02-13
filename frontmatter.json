@@ -64,6 +64,16 @@
           "title": "featuredimage",
           "name": "featuredimage",
           "type": "string"
+        },
+        {
+          "title": "type",
+          "name": "type",
+          "type": "string"
+        },
+        {
+          "title": "slug",
+          "name": "slug",
+          "type": "datetime"
         }
       ]
     },
