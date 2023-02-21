@@ -1,15 +1,22 @@
-  BaseURL = "https://www.mywebsite.com/"
-  languageCode = "en-us"
-  title = "My Hugo Site"
-  theme = "dunnyet"
-  relativeURLS = true
+BaseURL = "https://www.mywebsite.com/"
+languageCode = "en-us"
+title = "DunnYet"
+description =  "News, Notes, and Travels"
+theme = "dunnyet"
+relativeURLS = true
+copyright = "Copyright © Kevin Dunn 2023"
 
-  [markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+[markup]
+[markup.goldmark]
+  [markup.goldmark.renderer]
+    unsafe = true
 
-  [module]
-    [[module.mounts]]
-      source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
-      target = "assets/js/bootstrap.bundle.min.js"
+[module]
+  [[module.mounts]]
+    source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+    target = "assets/js/bootstrap.bundle.min.js"
+
+[taxonomies]
+  author = "authors"
+  tag = "tags"
+  category = "categories"

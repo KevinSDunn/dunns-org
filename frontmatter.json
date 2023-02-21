@@ -73,7 +73,7 @@
         {
           "title": "slug",
           "name": "slug",
-          "type": "datetime"
+          "type": "string"
         }
       ]
     },
