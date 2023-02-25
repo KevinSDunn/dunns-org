@@ -1,8 +1,8 @@
 ---
 title: Home Again
-description: ""
-date: 2023-02-21T02:09:37.567Z
-lastmod: 2023-02-21T02:13:51.183Z
+description: Second winter trip to Hohenwald completed
+date: 2023-02-20
+lastmod: 2023-02-21T02:57:50.193Z
 preview: ""
 draft: ""
 keywords: ""

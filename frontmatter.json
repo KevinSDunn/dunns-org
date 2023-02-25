@@ -3,84 +3,9 @@
   "frontMatter.git.enabled": true,
   "frontMatter.taxonomy.contentTypes": [
     {
-      "name": "blog",
-      "pageBundle": true,
+      "name": "default",
+      "pageBundle": false,
       "previewPath": null,
-      "fields": [
-        {
-          "title": "title",
-          "name": "title",
-          "type": "string"
-        },
-        {
-          "title": "description",
-          "name": "description",
-          "type": "string"
-        },
-        {
-          "title": "Publishing date",
-          "name": "date",
-          "type": "datetime",
-          "default": "{{now}}",
-          "isPublishDate": true
-        },
-        {
-          "title": "Last modified date",
-          "name": "lastmod",
-          "type": "datetime",
-          "isModifiedDate": true
-        },
-        {
-          "title": "preview",
-          "name": "preview",
-          "type": "string"
-        },
-        {
-          "title": "draft",
-          "name": "draft",
-          "type": "boolean"
-        },
-        {
-          "title": "keywords",
-          "name": "keywords",
-          "type": "string"
-        },
-        {
-          "title": "link",
-          "name": "link",
-          "type": "string"
-        },
-        {
-          "title": "tags",
-          "name": "tags",
-          "type": "string"
-        },
-        {
-          "title": "categories",
-          "name": "categories",
-          "type": "string"
-        },
-        {
-          "title": "featuredimage",
-          "name": "featuredimage",
-          "type": "string"
-        },
-        {
-          "title": "type",
-          "name": "type",
-          "type": "string"
-        },
-        {
-          "title": "slug",
-          "name": "slug",
-          "type": "string"
-        }
-      ]
-    },
-    {
-      "name": "triplog",
-      "previewPath": null,
-      "pageBundle": true,
       "fields": [
         {
           "title": "Title",
@@ -100,112 +25,24 @@
           "isPublishDate": true
         },
         {
-          "title": "Last modified date",
-          "name": "lastmod",
-          "type": "datetime",
-          "isModifiedDate": true
-        },
-        {
-          "title": "Start Location",
-          "name": "startlocation",
-          "type": "string"
-        },
-        {
-          "title": "Start Odometer",
-          "name": "startodometer",
-          "type": "number"
-        },
-        {
-          "title": "End Location",
-          "name": "endlocation",
-          "type": "string"
-        },
-        {
-          "title": "End Odometer",
-          "name": "endodometer",
-          "type": "number"
-        },
-        {
-          "title": "Waypoints",
-          "name": "waypoints",
-          "type": "fields",
-          "fields": [
-            {
-              "title": "Waypoint Name",
-              "name": "waypointname",
-              "type": "string"
-            },
-            {
-              "title": "Waypoint Geocode",
-              "name": "waypointgeocode",
-              "type": "string"
-            }
-          ]
-        },
-        {
-          "title": "Navigation weight",
-          "name": "weight",
-          "type": "number"
-        },
-        {
-          "title": "type",
-          "name": "type",
-          "type": "string"
-        },
-        {
-          "title": "startlat",
-          "name": "startlat",
-          "type": "datetime"
-        },
-        {
-          "title": "startlon",
-          "name": "startlon",
-          "type": "datetime"
-        },
-        {
-          "title": "endlat",
-          "name": "endlat",
-          "type": "datetime"
-        },
-        {
-          "title": "endlon",
-          "name": "endlon",
-          "type": "datetime"
-        },
-        {
-          "title": "preview",
+          "title": "Content preview",
           "name": "preview",
-          "type": "string"
+          "type": "image"
         },
         {
-          "title": "draft",
+          "title": "Is in draft",
           "name": "draft",
-          "type": "boolean"
+          "type": "draft"
         },
         {
-          "title": "keywords",
-          "name": "keywords",
-          "type": "string"
-        },
-        {
-          "title": "link",
-          "name": "link",
-          "type": "string"
-        },
-        {
-          "title": "tags",
+          "title": "Tags",
           "name": "tags",
-          "type": "string"
+          "type": "tags"
         },
         {
-          "title": "categories",
+          "title": "Categories",
           "name": "categories",
-          "type": "string"
-        },
-        {
-          "title": "featuredimage",
-          "name": "featuredimage",
-          "type": "string"
+          "type": "categories"
         }
       ]
     }

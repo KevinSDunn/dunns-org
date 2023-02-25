@@ -1,0 +1,12 @@
+curl --request POST \
+  --url https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/Routes?wp.0=Hohenwald,TN;64;1&wp.1=Dallas,TX;66;2&key={{BingMapsKey}}
+
+###
+
+# Start Address (URL Encoded)
+@wp1=T.O. Fuller State Park,1500 W Mitchell Rd, Memphis, TN 38109
+# End Address (URL Encoded)
+@wp2=KOA Journey,7820 Kampground Way, North Little Rock, AR 72118
+
+curl --request POST \
+  --url https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/Routes?waypoint.1={{wp1}}&waypoint.2={{wp2}}&key={{BingMapsKey}}
