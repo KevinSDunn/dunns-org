@@ -4,9 +4,31 @@ curl --request POST \
 ###
 
 # Start Address (URL Encoded)
-@wp1=T.O. Fuller State Park,1500 W Mitchell Rd, Memphis, TN 38109
+@wp1=T.O.%20Fuller%20State%20Park,1500%20W%20Mitchell%20Rd,%20Memphis,%20TN%2038109
 # End Address (URL Encoded)
-@wp2=KOA Journey,7820 Kampground Way, North Little Rock, AR 72118
+@wp2=KOA%20Journey,7820%20Kampground%20Way,%20North%20Little%20Rock,%20AR%2072118
 
 curl --request POST \
-  --url https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/Routes?waypoint.1={{wp1}}&waypoint.2={{wp2}}&key={{BingMapsKey}}
+  --url https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/Routes?waypoint.1={{wp1}}&waypoint.2={{wp2}}&key={{BingMapsKey}}&mapMetadata=1
+
+###
+
+
+
+curl --request POST \
+  --url https://dev.virtualearth.net/REST/v1/Imagery/Map/imagerySet/centerPoint/zoomLevel?mapSize={mapSize}&pushpin={pushpin}&mapLayer={mapLayer}&format={format}&key={{BingMapsKey}}
+
+
+###
+
+curl --request GET \
+  --url http://dev.virtualearth.net/REST/v1/Locations/US/TX/75137/Duncanville/1622%20South%20Greenstone%20Lane?&key={{BingMapsKey}}
+
+###
+
+  # Point Map
+  @lat=35.5623515
+  @long=-87.5369517
+
+curl --request GET \
+  --url https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/{{lat}},{{long}}/18?mapSize=600,600&pushpin={{lat}},{{long}}&mformat=jpeg&&key={{BingMapsKey}}

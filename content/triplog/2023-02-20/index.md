@@ -2,7 +2,7 @@
 title: Home Again
 description: Second winter trip to Hohenwald completed
 date: 2023-02-20
-lastmod: 2023-02-21T02:57:50.193Z
+lastmod: 2023-02-25T22:06:48.817Z
 preview: ""
 draft: ""
 keywords: ""
@@ -12,8 +12,8 @@ categories: ""
 featuredimage: ""
 type: triplog
 slug: ""
-startlocation: Atlanta State Park, TX
-endlocation: Home
+startlocation: Atlanta State Park,927 Park Road 42, Atlanta, TX 75551
+endlocation: Home,Duncanville, TX 75137
 startodometer: 26182
 endodometer: 26362
 ---

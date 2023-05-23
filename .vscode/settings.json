@@ -12,5 +12,6 @@
         },
         "editor.minimap.enabled": false
     },
-    "frontMatter.preview.host": "http://ocalhost:1313"
-}
+    "frontMatter.preview.host": "http://localhost:1313"
+},
+

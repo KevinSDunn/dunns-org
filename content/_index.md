@@ -1,7 +1,7 @@
 ---
 title: DunnYet
 description: News, Notes, and Travels
-lastmod: 2023-02-17T03:00:10.219Z
+lastmod: 2023-05-22T21:52:41.175Z
 bgimage: home-bg.jpeg
-bgimagealt: Tow vehicle Blue Moose & Oliver 1030 Reset
+bgimagealt: Sunset over ReelFoot Lake, Reelfoot State Park in Tennesssee
 ---

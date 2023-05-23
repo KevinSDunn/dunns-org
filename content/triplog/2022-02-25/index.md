@@ -1,6 +1,6 @@
 ---
-title: Through The Glitering Trees
-description: Driving through the shimmering ice coated trees.
+title: Through The Glittering Trees
+description: Trees were ice coated but road was dry
 date: 2022-02-25T00:00:00.000Z
 startlocation: T.O. Fuller State Park,1500 W Mitchell Rd, Memphis, TN 38109
 startodometer: 3570
@@ -15,6 +15,6 @@ link: ""
 tags: ""
 categories: ""
 bgimage: ""
-lastmod: 2023-02-25T21:56:19.524Z
+lastmod: 2023-02-25T22:04:33.746Z
 slug: glitering-trees
 ---

@@ -58,11 +58,6 @@
       "title": "blog",
       "path": "[[workspace]]/content/blog",
       "filePrefix": "yyyy-MM-dd"
-    },
-    {
-      "title": "triplog",
-      "path": "[[workspace]]/content/triplog",
-      "filePrefix": "yyyy-MM-dd"
     }
   ],
   "frontMatter.content.autoUpdateDate": true
