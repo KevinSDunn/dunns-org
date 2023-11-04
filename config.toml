@@ -2,7 +2,7 @@ BaseURL = "https://www.mywebsite.com/"
 languageCode = "en-us"
 title = "DunnYet"
 description =  "News, Notes, and Travels"
-theme = "dunnyet"
+theme = "dunnyet-theme"
 relativeURLS = true
 copyright = "Copyright © Kevin Dunn 2023"
 
