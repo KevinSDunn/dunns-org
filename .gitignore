@@ -13,7 +13,8 @@ hugo.linux
 /.hugo_build.lock
 
 # Don't include the themes direectory
-/themes/
+#/themes/
+#/themes/dunnyet-theme
 
 #VSCode
 .vscode/*
