@@ -3,7 +3,9 @@ title: About Us
 draft: false
 weight: 40
 menu: main
-lastmod: 2024-04-23T02:12:09.585Z
+lastmod: 2024-04-23T02:15:57.386Z
+bgimage: home-bg.jpeg
+bgimagealt: Sunset over ReelFoot Lake, Reelfoot State Park in Tennesssee
 ---
 
 # About Us
